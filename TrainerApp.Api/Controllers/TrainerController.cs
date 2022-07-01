@@ -23,10 +23,14 @@ namespace TrainerApp.Api.Controllers
 
                 [HttpGet]
                 [ProducesResponseType(StatusCodes.Status200OK)]
-                public async Task<List<Trainer>> Get()
+                public async Task<ActionResult<List<Trainer>>> Get()
                 {
-                    return await _mediator.Send(new GetAllTrainersQuery());
+                    return await _mediator.Send((new GetAllTrainersQuery()));
                 }
+                // public async Task<List<Trainer>> Get()
+                // {
+                //     return await _mediator.Send(new GetAllTrainersQuery());
+                // }
                 [HttpPost]
                 [ProducesResponseType(StatusCodes.Status200OK)]
                 public async Task<ActionResult<TrainerResponse>> CreateTrainer([FromBody] CreateTrainerCommand command)
