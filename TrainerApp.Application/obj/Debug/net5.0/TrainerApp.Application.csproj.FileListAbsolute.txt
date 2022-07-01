@@ -1,0 +1,15 @@
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\bin\Debug\net5.0\TrainerApp.Application.deps.json
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\bin\Debug\net5.0\TrainerApp.Application.dll
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\bin\Debug\net5.0\TrainerApp.Application.pdb
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\bin\Debug\net5.0\TrainerApp.Core.dll
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\bin\Debug\net5.0\TrainerApp.Core.pdb
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.csproj.AssemblyReference.cache
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.AssemblyInfoInputs.cache
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.AssemblyInfo.cs
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.csproj.CopyComplete
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.dll
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\refint\TrainerApp.Application.dll
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\TrainerApp.Application.pdb
+C:\Users\alexd\RiderProjects\TrainerApp\TrainerApp.Application\obj\Debug\net5.0\ref\TrainerApp.Application.dll

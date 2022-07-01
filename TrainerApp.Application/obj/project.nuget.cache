@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "K4BwR4zLewJzcgwLSbzPCtiIsuhWPLFNHOoL1av2N/WjeqEryCJotJds7g3jMaPMUBBgL3Tpl2b7YqVV4R0GpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexd\\RiderProjects\\TrainerApp\\TrainerApp.Application\\TrainerApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexd\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\alexd\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\alexd\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\alexd\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
