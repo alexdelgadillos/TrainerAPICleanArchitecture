@@ -29,7 +29,7 @@ namespace TrainerApp.Api.Controllers
                 }
                 [HttpPost]
                 [ProducesResponseType(StatusCodes.Status200OK)]
-                public async Task<ActionResult<TrainerResponse>> CreateEmployee([FromBody] CreateTrainerCommand command)
+                public async Task<ActionResult<TrainerResponse>> CreateTrainer([FromBody] CreateTrainerCommand command)
                 {
                     var result = await _mediator.Send(command);
                     return Ok(result);
