@@ -7,7 +7,7 @@ namespace TrainerApp.Application.Commands
 {
     public class CreateTrainerCommand : IRequest<TrainerResponse>
     {
-        public int Id { get; set; }
+      
         public string Name { get; set; }
         public List<Pokemon> PokemonList { get; set; }
     }

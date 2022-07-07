@@ -21,10 +21,11 @@ namespace TrainerApp.Infraestructure.Repositories
             return t;
         }
 
-        public async Task DeleteAsync(T t)
+        public async Task<T> DeleteAsync(T t)
         {
-            _trainerContext.Set <T>().Remove(t);
+            _trainerContext.Set<T>().Remove(t);
             await _trainerContext.SaveChangesAsync();
+            return t;
 
         }
 
@@ -38,9 +39,13 @@ namespace TrainerApp.Infraestructure.Repositories
             return await _trainerContext.Set<T>().FindAsync(id);
         }
 
-        public Task<T> UpdateAsync(T t)
+        public async Task<T> UpdateAsync(T t)
         {
-            throw new NotImplementedException();
+              _trainerContext.Set<T>().Update(t);
+             await _trainerContext.SaveChangesAsync();
+             return t;
         }
+        
+       
     }
 }

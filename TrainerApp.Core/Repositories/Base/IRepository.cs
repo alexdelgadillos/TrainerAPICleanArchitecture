@@ -7,7 +7,7 @@ namespace TrainerApp.Core.Repositories.Base
     {
         Task<T> CreateAsync(T t);
         Task<T> UpdateAsync(T t);
-        Task DeleteAsync(T t);
+        Task<T> DeleteAsync(T t);
 
         Task<IEnumerable<T>> GetAllAsync();
 

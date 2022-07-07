@@ -11,6 +11,9 @@ namespace TrainerApp.Application.Mappers
         {
             CreateMap<Trainer, TrainerResponse>().ReverseMap();
             CreateMap<Trainer, CreateTrainerCommand>().ReverseMap();
+            CreateMap<Trainer, UpdateTrainerCommand>().ReverseMap();
+            CreateMap<Trainer, DeleteTrainerCommand>().ReverseMap();
+
 
         }
 

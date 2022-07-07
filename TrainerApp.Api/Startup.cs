@@ -39,6 +39,8 @@ namespace TrainerApp.Api
             });
             services.AddAutoMapper(typeof(Startup));
             services.AddMediatR(typeof(CreateTrainerHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(UpdateTrainerHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(DeleteTrainerHandler).GetTypeInfo().Assembly);
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddTransient<ITrainerRepository, TrainerRepository>();
         }
